@@ -9,6 +9,6 @@ puts "Exercise 6"
 puts "----------"
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employees.create(first_name: "Peter", last_name: "Nolan", hourly_rate: 8000)
-@store2.employees.create(first_name: "Bob", last_name: "Barker", hourly_rate: 500)
-@store2.employees.create(first_name: "Real", last_name: "Dude", hourly_rate: 10)
+@store1.employees.create(first_name: "Peter", last_name: "Nolan", hourly_rate: 200)
+@store2.employees.create(first_name: "Bob", last_name: "Barker", hourly_rate: 200)
+@store2.employees.create(first_name: "Real", last_name: "Dude", hourly_rate: 60)
